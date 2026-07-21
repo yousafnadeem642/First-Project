@@ -3,9 +3,11 @@ import Card from '../Components/Card'
 import { card1, card2, card3, card4 } from "../Data/CardData";
 const Plan = () => {
   return (
- <>
-
-    <div className="row">
+  <>
+  
+  
+  
+      <div className="row">
 
       <div className="col-md-3">
         <Card cardInfo={card1} />
@@ -94,7 +96,60 @@ eSIM in 3 easy steps!
 
   </div>
 </div>
- </>
+
+<div className="container mt-5 mb-5 " style={{border:"black 0.5px solid",borderRadius:"30px",padding:"30px"}}>
+  <div className="row ">
+    <div className='col-12 col-md-3 col-lg-3'>
+      <h2>Uninterrupted Connectivity Across the USA</h2>
+    </div>
+
+    <div className='col-12 col-md-3 col-lg-3'>
+<img src="https://phonico.com/images/Coverage.svg" alt="" />
+<p style={{fontSize:"27px"}}>Effortless
+
+Coverage</p>
+    </div>
+    <div className='col-12 col-md-3 col-lg-3'>
+      <img src="https://phonico.com/images/Plans.svg" alt="" />
+      <p style={{fontSize:"27px"}}>Custom Plans
+
+To Choose</p>
+    </div>
+    <div className='col-12 col-md-3 col-lg-3'>
+<img src="https://phonico.com/images/247Support.svg" alt="" />
+<p style={{fontSize:"27px"}}>24/7 Support</p>
+    </div>
+</div>
+  </div>
+
+
+
+
+
+<div className='container mt-5'>
+<div  className='row align-item-center'>
+<div className='col-12 col-md-6 col-lg-6'>
+<h1 style={{fontSize:"60px"}}>
+  Introducing a World of Connectivity with the <span className='text-danger'>Phonico</span> eSIM App
+</h1>
+<p style={{fontSize:"27px"}}>
+  Download our eSIM App for monitoring your real-time data usage. You can also use this app to activate your eSIM, manage profiles, and get updates on new features and promotions. You can find this app on the Play Store and Apple Store!
+</p>
+<p>Download the APP now</p>
+<a href="#">
+  <img src="https://phonico.com/images/appleLink.svg" alt="" />
+</a>
+<a className='ms-2' href="#">
+  <img src="https://phonico.com/images/playLink.svg" alt="" />
+</a>
+</div>
+<div className='col-12 col-md-6 col-lg-6 '>
+<img src="https://phonico.com/_next/image/?url=%2Fimages%2FmobileImg.png&w=1920&q=75" alt="" />
+</div>
+</div>
+</div>
+  
+  </>
   )
 }
 

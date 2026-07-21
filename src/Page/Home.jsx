@@ -1,54 +1,4 @@
-// // import React from 'react'
 
-// // const Home = () => {
-// //   return (
-// //     <>
-
-    
-    
-// //     </>
-// //   )
-// // }
-
-// // export default Home
-
-
-// function Home() {
-//   return (
-//     <div className="container ">
-//       <div className="row align-items-center">
-
-//         {/* Left Side */}
-//         <div className="col-12 col-lg-6">
-//           <h1 className="display-4 fw-bold">
-//             Stay Connected With  {""}
-//             <span className="text-danger">Phonico</span> eSIM
-//           </h1>
-
-//           <p className="text-muted mt-3" style={{fontSize:"20px"}}>
-//            With Phonico eSIM, getting online in the U.S. is fast, easy, and completely digital. No KYC and no restrictions on Hotspot Sharing or Tethering. Select your Plan, Scan the QR, Activate, and Explore with uninterrupted coverage in all 50 states of the USA. Starting from $15/Month
-//           </p>
-
-//           <button className="btn btn-danger mt-3">
-//             Get Your USA eSIM Now
-//           </button>
-//         </div>
-
-//         {/* Right Side */}
-//         <div className="col-12 col-lg-6 text-center mt-4 mt-lg-0">
-//           <img
-//             src="https://phonico.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2FfemaleHero2.e02ce7c9.png&w=1920&q=75"
-//             alt="Hero"
-//             className="img-fluid"
-//           />
-//         </div>
-
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default Home;
 
 import React from 'react'
 import Card from '../Components/Card'
@@ -163,6 +113,58 @@ eSIM in 3 easy steps!
     </div>
 
   </div>
+</div>
+
+<div className="container mt-5 mb-5 " style={{border:"black 0.5px solid",borderRadius:"30px",padding:"30px"}}>
+  <div className="row ">
+    <div className='col-12 col-md-3 col-lg-3'>
+      <h2>Uninterrupted Connectivity Across the USA</h2>
+    </div>
+
+    <div className='col-12 col-md-3 col-lg-3'>
+<img src="https://phonico.com/images/Coverage.svg" alt="" />
+<p style={{fontSize:"27px"}}>Effortless
+
+Coverage</p>
+    </div>
+    <div className='col-12 col-md-3 col-lg-3'>
+      <img src="https://phonico.com/images/Plans.svg" alt="" />
+      <p style={{fontSize:"27px"}}>Custom Plans
+
+To Choose</p>
+    </div>
+    <div className='col-12 col-md-3 col-lg-3'>
+<img src="https://phonico.com/images/247Support.svg" alt="" />
+<p style={{fontSize:"27px"}}>24/7 Support</p>
+    </div>
+</div>
+  </div>
+
+
+
+
+
+<div className='container mt-5'>
+<div  className='row align-item-center'>
+<div className='col-12 col-md-6 col-lg-6'>
+<h1 style={{fontSize:"60px"}}>
+  Introducing a World of Connectivity with the <span className='text-danger'>Phonico</span> eSIM App
+</h1>
+<p style={{fontSize:"27px"}}>
+  Download our eSIM App for monitoring your real-time data usage. You can also use this app to activate your eSIM, manage profiles, and get updates on new features and promotions. You can find this app on the Play Store and Apple Store!
+</p>
+<p>Download the APP now</p>
+<a href="#">
+  <img src="https://phonico.com/images/appleLink.svg" alt="" />
+</a>
+<a className='ms-2' href="#">
+  <img src="https://phonico.com/images/playLink.svg" alt="" />
+</a>
+</div>
+<div className='col-12 col-md-6 col-lg-6 '>
+<img src="https://phonico.com/_next/image/?url=%2Fimages%2FmobileImg.png&w=1920&q=75" alt="" />
+</div>
+</div>
 </div>
 
    </>
